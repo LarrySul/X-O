@@ -37,7 +37,7 @@ table tr td:last-child{
     color: #fff;
     font-size: 3rem;
 }
-.btn {
+button {
     display: inline-block;
     font-weight: 600;
     text-align: center;
