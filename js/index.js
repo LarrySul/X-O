@@ -58,7 +58,7 @@ function checkWin(board, player) {
         for (var i = 0; i< cells.length; i++){
             cells[i].removeEventListener('click', turnClick, false);
         }
-        declareWinner(gameWon.player == huPlayer ? "You win !" : "You lose");
+        declareWinner(gameWon.player == huPlayer ? "oti win !" : "oti loose");
     }
 
     function emptySquares(){
