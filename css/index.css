@@ -2,18 +2,6 @@ table {
     border-collapse: collapse;
     margin: 120px auto;
 }
-
-td{
-   border: 2px solid #333;
-   height: 100px;
-   width: 100px;
-   text-align: center;
-   vertical-align: middle;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   font-size: 70px;
-   cursor: pointer; 
-}
-
 table tr:first-child td{
     border-top: 0;
 }
@@ -26,12 +14,25 @@ table tr td:first-child{
 table tr td:last-child{
     border-right:0;
 }
-
+td{
+   border: 2px solid #333;
+   height: 100px;
+   width: 100px;
+   text-align: center;
+   vertical-align: middle;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 70px;
+   cursor: pointer; 
+}
 .endgame{
+    display: none;
     width: 200px;
+/*     top: 120px; */
     background-color:rgba(205, 133, 63, 0.8);
-    margin: -300px auto;
-    padding: 20px 0;
+/*     position: absolute; */
+/*     left: 50%; */
+    margin: 0 auto;
+    padding:20px 0;
     text-align:center;
     border-radius: 5px;
     color: #fff;
