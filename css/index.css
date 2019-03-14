@@ -55,7 +55,6 @@ table tr td:last-child{
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 #color{
-    margin: 5px 0;
     cursor: pointer;
     color: #fff;
     background-color: #0665d0;
