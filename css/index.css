@@ -1,3 +1,8 @@
+table {
+    border-collapse: collapse;
+    margin: 120px auto;
+}
+
 td{
    border: 2px solid #333;
    height: 100px;
@@ -8,12 +13,7 @@ td{
    font-size: 70px;
    cursor: pointer; 
 }
-table {
-    border-collapse: collapse;
-    position: absolute;
-    left: 50%;
-    margin: 0 auto;
-}
+
 table tr:first-child td{
     border-top: 0;
 }
@@ -26,18 +26,15 @@ table tr td:first-child{
 table tr td:last-child{
     border-right:0;
 }
+
 .endgame{
     display: none;
     width: 200px;
-    top: 120px;
     background-color:rgba(205, 133, 63, 0.8);
-    position: absolute;
-    left: 50%;
-    margin-left: -100px;
-    padding-top:50px;
-    padding-bottom: 50px;
+    margin: 150px auto;
+    padding:50px 0 50px 0;
     text-align:center;
     border-radius: 5px;
     color: #fff;
-    font-size: 2em;
+    font-size: 2rem;
 }
